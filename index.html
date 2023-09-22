@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .image--container {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .image {
+            background-image: url('https://s3-alpha-sig.figma.com/img/e124/d31b/4b7edc8a8926233d613c437affc8b621?Expires=1696204800&Signature=laDsx3F8w-JuSYlT~kkagauIPJglahQJfEUjvPvlbSGzO2kH2CSBt42xW8CXCWD6wPUe2vQHSyBUjxmBntGz~vFHKakQu2xYpJ6isDzTUxOtKNL1voajHIP-yXgJBdki2ZTSoShXhQ7ji7PxIe7xkCTll1yI20xHq~U6XIbxp~V3SllV1PQwIk-Va~BNPCkfrwYE7TH2~fgwhs0Pq5gpUIoIc84X-K6jBs7Cip7Qs3eCIHXIo8E2A2EWqgShP3L1X23QdDrPelC7zimp3vOJOxjSjRBKnDxgM8KA2bWExxG-PdamA5Bey9KOmZNNnFSREKz6VajTIw1UAybwrVVXUA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .layer {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 20;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image--container">
+        <div class="image"></div>
+        <div class="layer"></div>
+    </div>
+    <h1>Hello world</h1>
+</body>
+
+</html>
